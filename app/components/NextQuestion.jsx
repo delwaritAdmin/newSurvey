@@ -66,7 +66,7 @@ const NextQuestion = ({
     try {
       setIsFetching(true);
       const response = await axios.post(
-        `http://localhost:3001/api/details`,
+        `https://new-survey-back.vercel.app/api/details`,
         final
       );
 
